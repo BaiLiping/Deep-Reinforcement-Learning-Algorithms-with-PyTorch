@@ -1,7 +1,10 @@
-numpy==1.15.2
+numpy==1.22.2
 torch==0.4.1.post2
 matplotlib==3.0.0
 PyVirtualDisplay==0.2.1
 gym==0.10.9
 nn_builder
 tensorflow
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+scipy>=1.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
