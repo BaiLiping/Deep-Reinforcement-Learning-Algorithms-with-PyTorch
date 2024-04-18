@@ -6,3 +6,4 @@ gym==0.10.9
 nn_builder
 tensorflow
 wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+keras>=2.13.1rc0 # not directly required, pinned by Snyk to avoid a vulnerability
